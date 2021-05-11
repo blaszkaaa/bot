@@ -1,0 +1,22 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blaszkaaa/bot.git"
+  },
+  "author": "blaszkaaa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blaszkaaa/bot/issues"
+  },
+  "homepage": "https://github.com/blaszkaaa/bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
