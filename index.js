@@ -12,9 +12,7 @@ client.once('ready', () => {
     
     setInterval(() => {
         const statuses = [
-            `@zarzad`,
-            `testo to scamer`,
-            `Jebac venoma`
+            `VC to syf`,
         ]
         const status = statuses[Math.floor(Math.random() * statuses.length)]
         client.user.setActivity(status, { type: "PLAYING"})
