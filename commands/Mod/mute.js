@@ -10,13 +10,13 @@ module.exports = {
     callback: (message, args) => {
         const member = message.mentions.members.first()
         if(!member) return message.reply('Musisz wspomnieć o użytkowniku, którego mam wyciszyść.')
-        member.roles.add('801728021438005288') //tutaj trzeba dodac id roli mute
-        if(member.roles.cache.has('801728021438005288')) return message.reply('Użytkownik jest już wyciszony.') 
+        member.roles.add('840151436062228510') //tutaj trzeba dodac id roli mute
+        if(member.roles.cache.has('840151436062228510')) return message.reply('Użytkownik jest już wyciszony.') 
 
         const embed = new MessageEmbed()
         .setTitle('Użytkownik wyciszony')
         .setDescription(`<@${member.user.id}> Został wyciszony.`)
-        .addField('Wyciszone przez', message.author)
+        .addField('Wyciszony przez', message.author)
         .setColor('RANDOM')
         message.channel.send(embed)
     }

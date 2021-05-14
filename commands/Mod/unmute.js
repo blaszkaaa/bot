@@ -10,8 +10,8 @@ module.exports = {
     callback: (message, args) => {
         const member = message.mentions.members.first()
         if(!member) return message.reply('Wspomnij użytkownika, który ma zostać odmutowany.')
-        member.roles.remove('801728021438005288') // Removes Mute Role to User
-        if(!member.roles.cache.has('801728021438005288')) return message.reply('Użytkownik nie jest już wyciszony.') // If User Is Already Unmuted.
+        member.roles.remove('840151436062228510') // Removes Mute Role to User
+        if(!member.roles.cache.has('840151436062228510')) return message.reply('Użytkownik nie jest już wyciszony.') // If User Is Already Unmuted.
 
         const embed = new MessageEmbed()
         .setTitle('Wyłączono wyciszenie użytkownika.')
